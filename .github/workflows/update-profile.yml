@@ -1,0 +1,27 @@
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # Runs daily at midnight UTC (8 AM Malaysia time)
+  workflow_dispatch:        # Allows manual trigger from Actions tab
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Add your SVG generation step here if using a custom script
+      # For now, this workflow serves as a template
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "muhdilham2001@gmail.com"
+          git config --local user.name "Muhammad Ilham Effendy"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "🔄 Auto-update profile stats"
+          git push
