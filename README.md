@@ -10,15 +10,36 @@
 
 ## 👋 About Me
 
-```yaml
-name: Muhammad Ilham Effendy
-location: Malaysia 🇲🇾
-role: Data Engineer | Web Developer | ML Enthusiast
-```
+```text
+                    ilhamefndy@github
+                    ──────────────────
+        ██  ██      Name:         Muhammad Ilham Effendy
+      ██░░██░░██    Host:         Malaysia 🇲🇾
+      ██░░░░░░██    OS:           Windows 11
+        ██░░██      IDE:          VS Code
+          ██        
+                    Languages.Programming:
+                      JavaScript, Python, HTML/CSS, SQL
 
-- 🔭 Currently working on **a real-time data pipeline for streaming analytics using Apache Kafka & Spark**
-- 🌱 Currently learning **Machine Learning / AI, Data Engineering, Cloud (AWS/GCP), React / Next.js**
-- 📫 How to reach me: **[muhdilham2001@gmail.com](mailto:muhdilham2001@gmail.com)**
+                    Languages.Human:
+                      Malay, English
+
+                    Hobbies.Software:
+                      Web Development, Data Engineering, ML
+
+                    Currently.Working.On:
+                      Real-time data pipeline for streaming
+                      analytics using Apache Kafka & Spark
+
+                    Currently.Learning:
+                      Machine Learning / AI, Cloud (AWS/GCP),
+                      React / Next.js
+
+                    Contact:
+                      Email:      muhdilham2001@gmail.com
+                      LinkedIn:   linkedin.com/in/ilhameffendy
+                      Website:    portfolio.ilhameffendy.com
+```
 
 ---
 
